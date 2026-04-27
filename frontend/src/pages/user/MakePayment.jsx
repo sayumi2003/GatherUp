@@ -101,11 +101,8 @@ const MakePayment = () => {
                         </div>
                         <div className="form-group">
                             <label>Payment Method</label>
-                            <select id="mp-method" value={form.method} onChange={e => setForm(p => ({ ...p, method: e.target.value }))}>
+                            <select id="mp-method" value={form.method} onChange={e => setForm(p => ({ ...p, method: e.target.value }))} disabled>
                                 <option value="card">💳 Credit / Debit Card</option>
-                                <option value="upi">📱 UPI</option>
-                                <option value="netbanking">🏦 Net Banking</option>
-                                <option value="cash">💵 Cash</option>
                             </select>
                         </div>
 
