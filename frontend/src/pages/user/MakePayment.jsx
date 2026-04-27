@@ -101,7 +101,7 @@ const MakePayment = () => {
                         </div>
                         <div className="form-group">
                             <label>Payment Method</label>
-                            <select id="mp-method" value={form.method} onChange={e => setForm(p => ({ ...p, method: e.target.value }))} disabled>
+                            <select id="mp-method" value={form.method} onChange={e => setForm(p => ({ ...p, method: e.target.value }))} disabled style={{ appearance: 'none', WebkitAppearance: 'none' }}>
                                 <option value="card">💳 Credit / Debit Card</option>
                             </select>
                         </div>
