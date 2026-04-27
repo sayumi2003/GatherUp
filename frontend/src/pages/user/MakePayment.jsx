@@ -9,7 +9,11 @@ const eventAmounts = {
     'Viramaya': 500,
     'Aloka warsha': 1000,
     'Annual Get Together': 1500,
-    'Handawa': 2000
+    'Handawa': 2000,
+    'Robofest': 1000,
+    'Hackathon': 2000,
+    'Padura': 1200,
+    'SLIIT Got Talent': 5000
 };
 
 const MakePayment = () => {
@@ -84,6 +88,10 @@ const MakePayment = () => {
                                 <option value="Aloka warsha">Aloka warsha</option>
                                 <option value="Annual Get Together">Annual Get Together</option>
                                 <option value="Handawa">Handawa</option>
+                                <option value="Robofest">Robofest</option>
+                                <option value="Hackathon">Hackathon</option>
+                                <option value="Padura">Padura</option>
+                                <option value="SLIIT Got Talent">SLIIT Got Talent</option>
                             </select>
                         </div>
                         <div className="form-group">
